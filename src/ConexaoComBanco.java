@@ -5,6 +5,8 @@ import java.sql.SQLException;
 
 public class ConexaoComBanco {
 
+	
+	//Sinalise aqui o método para que ele avise que é um código sensível
 	public void conecta() {
 		
 		try {
