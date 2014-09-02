@@ -10,13 +10,17 @@ public class Formulario {
 		//fornecer tratamento, de acordo com o tipo de erro
 		//explicar 
 		
-		RandomAccessFile raf = new RandomAccessFile("arquivo.txt", "r");
-		raf.seek(raf.length());
-		String line;
-		while((line = raf.readLine()) != null){
-			System.out.print(line);
+		try {
+			RandomAccessFile raf = new RandomAccessFile("arquivo.txt", "r");
+			raf.seek(raf.length());
+			String line;
+			while((line = raf.readLine()) != null){
+				System.out.print(line);
+			}
+			raf.close();
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
 		}
-		raf.close();
 		
 		
 		
@@ -24,13 +28,18 @@ public class Formulario {
 		//Que tipo de erro é possível ser lançado nos dois métodos abaixo? 
 		//Como deve ser tratado
 		//-1
-		String texto = null;
-		texto.endsWith("c");
+		try {
+			String texto = null;
+			texto.endsWith("c");
+			
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
 		
 		//-2
 		int[] array = new int[3];
-		for(int i=0; i <= 3; i++){
-			System.out.println(i);
+		for(int i=0; i <= 4; i++){
+			System.out.println(array[i]);
 		}
 		
 		

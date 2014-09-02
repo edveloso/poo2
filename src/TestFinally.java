@@ -5,8 +5,8 @@ public class TestFinally {
 	public static void main(String[] args) {
 	
 		//Responda as seguintes questões:
-		//quando o catch é executado
-		//quando o finally é executado
+		//quando o catch é executado?
+		//quando o finally é executado?
 		
 		try {
 			int soma = 2+3;
