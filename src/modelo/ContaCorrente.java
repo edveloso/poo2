@@ -8,7 +8,6 @@ public class ContaCorrente {
 	//Modificadores de visibilidade
 	//protected
 	
-	
 	//construtor default e implícito
 	//inicializar as variáveis de sua classe
 	private String correntista; //só é acessível pela própria classe
