@@ -19,7 +19,7 @@ public class Aluno implements Comparable<Aluno>{
 	}
 	
 	public int compareTo(Aluno aluno){
-		return this.matricula.compareTo(aluno.getMatricula()); 
+		return this.nome.compareTo(aluno.getNome()); 
 	}
 	
 	public String getNome(){

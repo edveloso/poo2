@@ -3,12 +3,14 @@ import java.io.RandomAccessFile;
 
 import modelo.persistencia.ConexaoComBanco;
 
+import visao.outropacote.UmaClasse;
 
 public class Formulario {
 
 	
 	public static void main(String[] args) {
 
+		UmaClasse uma = new UmaClasse();
 		//Testar tipos de erros possíveis e 
 		//fornecer tratamento, de acordo com o tipo de erro
 		//explicar 
